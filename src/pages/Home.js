@@ -3,7 +3,7 @@ import Main from "../components/Content/Main";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container mx-auto px-5">
       <Main />
     </div>
   )

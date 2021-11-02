@@ -5,10 +5,10 @@ import Footer from "./Footer";
 
 const Layout = (props) => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 min-h-screen">
       <Navbar />
       <main>
-        <div className="w-full mx-auto p-6 lg:px-2">
+        <div className="w-full mx-auto p-6 lg:px-12">
           {props.children}
         </div>
       </main>
