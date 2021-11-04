@@ -1,10 +1,10 @@
 import React from 'react'
 
+import Cashflow from "../components/Advisory/Cashflow"
+
 const Advisory = () => {
   return (
-    <div>
-      Advisory page
-    </div>
+    <Cashflow />
   )
 }
 
