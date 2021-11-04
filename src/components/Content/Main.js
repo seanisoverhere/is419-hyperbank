@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../../assets/hero.png";
+import Banner from "../Carousel/Banner";
 import Carousel from "../Carousel/Carousel";
 
 const Main = () => {
@@ -30,6 +31,7 @@ const Main = () => {
           />
         </div>
       </div>
+      <Banner />
       <Carousel />
     </section>
   );

@@ -8,7 +8,7 @@ import Lending from "../../assets/lending.jpg";
 const Carousel = () => {
   return (
     <section>
-      <div className="relative items-center w-full lg:py-40 py-12 mx-auto ">
+      <div className="relative items-center w-full lg:py-32 py-12 mx-auto ">
         <div className="pb-5">
           <h3 className="sm:text-5xl text-3xl font-bold leading-6 text-neutral-600">
             Services Available
