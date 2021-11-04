@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
+import Lending from "../components/Lending/Lending"
 
 const Lenders = () => {
-  return (
-    <div>
-      P2P Lender Page
-    </div>
-  )
-}
+  return <Lending />;
+};
 
-export default Lenders
+export default Lenders;
+ 
