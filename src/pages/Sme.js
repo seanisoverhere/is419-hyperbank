@@ -1,10 +1,9 @@
 import React from 'react'
+import Container from "../components/Sme/Container";
 
 const Sme = () => {
   return (
-    <div>
-      List of SMEs Page
-    </div>
+    <Container />
   )
 }
 
