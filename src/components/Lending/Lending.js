@@ -6,24 +6,23 @@ import { GiPayMoney, GiReceiveMoney } from "react-icons/gi";
 import BorrowForm from "./BorrowForm";
 
 const Lending = () => {
-
-  let [isOpen, setIsOpen] = useState(false)
-  let [isOpen2, setIsOpen2] = useState(false)
+  let [isOpen, setIsOpen] = useState(false);
+  let [isOpen2, setIsOpen2] = useState(false);
 
   function closeModal() {
-    setIsOpen(false)
+    setIsOpen(false);
   }
 
   function openModal() {
-    setIsOpen(true)
+    setIsOpen(true);
   }
 
   function openModal2() {
-    setIsOpen2(true)
+    setIsOpen2(true);
   }
 
   function closeModal2() {
-    setIsOpen2(false)
+    setIsOpen2(false);
   }
 
   return (
@@ -42,11 +41,11 @@ const Lending = () => {
             implementing our very own Credit Risk Assessment Metrics™.
           </p>
           <p className="text-md">
-            With HyperBank, you can finance your SMEs even by lending from us
-            without a hassle. Our platform offers. Our platform also enables
-            you, the investor, to not only benefit from gaining access to
-            attractive investment opportunities, but also to participate in the
-            expansion of an innovative fixed income asset class.
+            With HyperBank, you can finance your SMEs by borrowing from us
+            without a hassle. Our platform also enables you, the investor, to
+            not only benefit from gaining access to attractive investment
+            opportunities, but also to participate in the expansion of an
+            innovative fixed income asset class.
           </p>
         </div>
       </div>
@@ -214,7 +213,8 @@ const Lending = () => {
                 </Dialog.Title>
                 <div className="mt-2">
                   <p className="text-sm text-gray-500">
-                    If you'd like to be an investor, drop us an email at hello@hyperbank.com and we will get in touch with you!
+                    If you'd like to be an investor, drop us an email at
+                    hello@hyperbank.com and we will get in touch with you!
                   </p>
                 </div>
 
