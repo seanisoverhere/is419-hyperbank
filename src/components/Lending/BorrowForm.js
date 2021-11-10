@@ -1,6 +1,13 @@
 import React from "react";
+import Dropdown from "./Dropdown";
+
 import { Link } from "react-router-dom";
 import { MdCloudUpload } from "react-icons/md";
+
+const industry = [
+  { id: 1, name: "P2P Lending" },
+  { id: 2, name: "Direct Financing" },
+];
 
 const BorrowForm = () => {
   return (
@@ -10,14 +17,23 @@ const BorrowForm = () => {
           Borrow
         </h1>
         <div className="space-y-6 text-lg">
-          <div className="items-center w-full p-4 space-y-4 text-gray-500 md:inline-flex md:space-y-0">
+          <div className="items-center w-full p-4 space-y-4 text-gray-800 md:inline-flex md:space-y-0">
+            <h2 className="max-w-sm mx-auto md:w-1/3">Type of Loan</h2>
+            <div className="max-w-sm mx-auto md:w-2/3">
+              <div className="relative mb-6">
+                <Dropdown list={industry} />
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div className="items-center w-full p-4 space-y-4 text-gray-800 md:inline-flex md:space-y-0">
             <h2 className="max-w-sm mx-auto md:w-1/3">Amount Required</h2>
             <div className="max-w-sm mx-auto md:w-2/3">
               <div className=" relative ">
                 <div>
                   <div className="mt-1 relative rounded-md shadow-sm">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <span className="text-gray-500 sm:text-sm">$</span>
+                      <span className="text-gray-800 sm:text-sm">$</span>
                     </div>
                     <input
                       type="text"
@@ -46,7 +62,7 @@ const BorrowForm = () => {
           </div>
 
           <hr />
-          <div className="items-center w-full p-4 space-y-4 text-gray-500 md:inline-flex md:space-y-0">
+          <div className="items-center w-full p-4 space-y-4 text-gray-800 md:inline-flex md:space-y-0">
             <h2 className="max-w-sm mx-auto md:w-1/3">Loan Period (Months)</h2>
             <div className="max-w-sm mx-auto md:w-2/3">
               <div className="relative">
@@ -61,7 +77,7 @@ const BorrowForm = () => {
           </div>
 
           <hr />
-          <div className="items-center w-full p-4 space-y-4 text-gray-500 md:inline-flex md:space-y-0">
+          <div className="items-center w-full p-4 space-y-4 text-gray-800 md:inline-flex md:space-y-0">
             <h2 className="max-w-sm mx-auto md:w-1/3">Purpose of Loan</h2>
             <div className="max-w-sm mx-auto space-y-5 md:w-2/3">
               <label className="text-gray-700" for="name">
@@ -77,7 +93,7 @@ const BorrowForm = () => {
             </div>
           </div>
           <hr />
-          <div className="items-center w-full p-4 space-y-4 text-gray-500 md:inline-flex md:space-y-0">
+          <div className="items-center w-full p-4 space-y-4 text-gray-800 md:inline-flex md:space-y-0">
             <h2 className="max-w-sm mx-auto md:w-1/3">
               Social Media Information
             </h2>
@@ -99,7 +115,7 @@ const BorrowForm = () => {
             </div>
           </div>
           <hr />
-          <div className="items-center w-full p-4 space-y-4 text-gray-500 md:inline-flex md:space-y-0">
+          <div className="items-center w-full p-4 space-y-4 text-gray-800 md:inline-flex md:space-y-0">
             <h2 className="max-w-sm mx-auto md:w-1/3">
               Upload your Company Bills
             </h2>
