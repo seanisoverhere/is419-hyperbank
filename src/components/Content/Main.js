@@ -8,7 +8,7 @@ const Main = () => {
     <section className="body-font mt-12">
       <div className="flex md:flex-row flex-col items-center">
         <div className="lg:flex-shrink md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <span className="pl-1 mb-4 text-lg font-black tracking-widest text-indigo-500 uppercase"> HyperBank</span>
+        <span className="pl-1 mb-4 text-xl font-black tracking-widest text-indigo-500 uppercase">HyperBank</span>
           <h1 className="title-font sm:text-7xl text-3xl mb-4 font-black text-gray-900">
             Supercharge your Finance
           </h1>

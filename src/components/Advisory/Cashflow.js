@@ -18,12 +18,12 @@ const Cashflow = () => {
             </p>
             <div className="grid gap-6 mt-8 sm:grid-cols-2">
               <div className="flex items-center space-x-5 text-black dark:text-gray-200">
-                <div class="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
                   <svg
                     width="20"
                     height="20"
                     fill="currentColor"
-                    class="h-4 w-4"
+                    className="h-4 w-4"
                     viewBox="0 0 1792 1792"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -35,12 +35,12 @@ const Cashflow = () => {
               </div>
 
               <div className="flex items-center space-x-5 text-black dark:text-gray-200">
-                <div class="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
                   <svg
                     width="20"
                     height="20"
                     fill="currentColor"
-                    class="h-4 w-4"
+                    className="h-4 w-4"
                     viewBox="0 0 1792 1792"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -52,12 +52,12 @@ const Cashflow = () => {
               </div>
 
               <div className="flex items-center space-x-5 text-black dark:text-gray-200">
-                <div class="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
                   <svg
                     width="20"
                     height="20"
                     fill="currentColor"
-                    class="h-4 w-4"
+                    className="h-4 w-4"
                     viewBox="0 0 1792 1792"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -69,12 +69,12 @@ const Cashflow = () => {
               </div>
 
               <div className="flex items-center space-x-5 text-black dark:text-gray-200">
-                <div class="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
                   <svg
                     width="20"
                     height="20"
                     fill="currentColor"
-                    class="h-4 w-4"
+                    className="h-4 w-4"
                     viewBox="0 0 1792 1792"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -86,12 +86,12 @@ const Cashflow = () => {
               </div>
 
               <div className="flex items-center space-x-5 text-black dark:text-gray-200">
-                <div class="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
                   <svg
                     width="20"
                     height="20"
                     fill="currentColor"
-                    class="h-4 w-4"
+                    className="h-4 w-4"
                     viewBox="0 0 1792 1792"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -103,12 +103,12 @@ const Cashflow = () => {
               </div>
 
               <div className="flex items-center space-x-5 text-black dark:text-gray-200">
-                <div class="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
+                <div className="flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
                   <svg
                     width="20"
                     height="20"
                     fill="currentColor"
-                    class="h-4 w-4"
+                    className="h-4 w-4"
                     viewBox="0 0 1792 1792"
                     xmlns="http://www.w3.org/2000/svg"
                   >

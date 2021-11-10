@@ -10,7 +10,7 @@ const Carousel = () => {
     <section>
       <div className="relative items-center w-full lg:py-32 py-12 mx-auto ">
         <div className="pb-5">
-          <h3 className="sm:text-5xl text-3xl font-bold leading-6 text-neutral-600">
+          <h3 className="sm:text-5xl text-3xl font-bold lg:text-left text-center leading-6 text-neutral-600">
             Services Available
           </h3>
         </div>

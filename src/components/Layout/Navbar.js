@@ -9,6 +9,13 @@ import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const signOut = () => {
+    localStorage.clear();
+  };
+
+  const isLoggedIn = localStorage.getItem("type");
+
   return (
     <div>
       <nav className="bg-gray-800 shadow-lg">
@@ -40,6 +47,22 @@ const Navbar = () => {
                   >
                     SMEs
                   </Link>
+                  {isLoggedIn ? (
+                    <Link
+                      to="/"
+                      onClick={signOut}
+                      className="transition duration-400 ease-in-out text-gray-300 bg-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    >
+                      Sign Out
+                    </Link>
+                  ) : (
+                    <Link
+                      to="/login"
+                      className="transition duration-400 ease-in-out text-gray-300 bg-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    >
+                      Sign In
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>
@@ -88,6 +111,22 @@ const Navbar = () => {
                 >
                   SMEs
                 </Link>
+                {isLoggedIn ? (
+                  <Link
+                    to="/"
+                    onClick={signOut}
+                    className="transition duration-400 ease-in-out text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Sign Out
+                  </Link>
+                ) : (
+                  <Link
+                    to="/login"
+                    className="transition duration-400 ease-in-out text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    Sign In
+                  </Link>
+                )}
               </div>
             </div>
           )}

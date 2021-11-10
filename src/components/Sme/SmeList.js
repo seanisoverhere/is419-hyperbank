@@ -22,7 +22,7 @@ export const SmeList = [
   },
   {
     category: "Health",
-    name: "Super Supplements",
+    name: "Super Supp",
     color: "green",
     link: "http://www.google.com",
     description: "Health Guru",
