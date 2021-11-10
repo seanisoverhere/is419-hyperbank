@@ -11,7 +11,7 @@ const Container = () => {
       <h3 className="sm:text-5xl text-3xl font-bold lg:text-left text-center leading-6 text-neutral-600 my-8">
         SME Partners
       </h3>
-      <p className="text-md mb-12 px-8">
+      <p className="text-md mb-12 lg:px-0 px-8">
         Check out some of our SME partners that have worked with us before
       </p>
       <div className="flex h-screen overflow-hidden bg-white rounded-lg">

@@ -123,7 +123,7 @@ const Login = () => {
 
                   <div className="text-sm">
                     <div className="font-medium text-indigo-600 hover:text-indigo-500">
-                      htmlForgot your password?
+                      Forgot your password?
                     </div>
                   </div>
                 </div>
@@ -220,7 +220,7 @@ const Login = () => {
 
                   <div className="text-sm">
                     <div className="font-medium text-indigo-600 hover:text-indigo-500">
-                      htmlForgot your password?
+                      Forgot your password?
                     </div>
                   </div>
                 </div>
